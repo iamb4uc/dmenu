@@ -8,7 +8,7 @@ static const char *fonts[] = {
     "JetBrainsMono Nerd Font:size=10:antialias=true:autohint=true",
     "NotoColorEmoji:size=13:antialias=true:autohint=true"};
 static const char *prompt =
-    "Launch Application:"; /* -p  option; prompt to the left of input field */
+    "⚡ Launch:"; /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
     /*     fg         bg       */
     [SchemeNorm] = {"#ebdbb2", "#282828"},
