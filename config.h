@@ -11,10 +11,10 @@ static const char *prompt =
     "⚡ Launch:"; /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
     /*     fg         bg       */
-    [SchemeNorm] = {"#ebdbb2", "#282828"},
-    [SchemeSel] = {"#282828", "#ebdbb2"},
-    [SchemeOut] = {"#ebdbb2", "#8ec07c"},
-    [SchemeCursor] = {"#282828", "#ebdbb2"},
+    [SchemeNorm] = {"#cdd6f4", "#1e1e2e"},
+    [SchemeSel] = {"#1e1e2e", "#cdd6f4"},
+    [SchemeOut] = {"#cdd6f4", "#a6e3a1"},
+    [SchemeCursor] = {"#1e1e2e", "#cdd6f4"},
 };
 
 static const unsigned int alphas[SchemeLast][2] = {
@@ -47,4 +47,4 @@ static Key quit_keys[] = {
     {XK_q, 0}};
 
 /* Size of the window border */
-static const unsigned int border_width = 1;
+static const unsigned int border_width = 0;
