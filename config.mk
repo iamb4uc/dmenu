@@ -1,4 +1,4 @@
-# dmenu version
+# DoomMenu version
 VERSION = 5.1
 
 # paths

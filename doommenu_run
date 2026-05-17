@@ -1,0 +1,2 @@
+#!/bin/sh
+doommenu_path | doommenu "$@" | ${SHELL:-"/bin/sh"} &

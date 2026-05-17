@@ -1,8 +1,8 @@
-.TH DMENU 1 dmenu\-VERSION
+.TH DOOMMENU 1 doommenu\-VERSION
 .SH NAME
-dmenu \- dynamic menu
+doommenu \- dynamic menu
 .SH SYNOPSIS
-.B dmenu
+.B doommenu
 .RB [ \-bfiv ]
 .RB [ \-l
 .IR lines ]
@@ -25,38 +25,38 @@ dmenu \- dynamic menu
 .RB [ \-w
 .IR windowid ]
 .P
-.BR dmenu_run " ..."
+.BR doommenu_run " ..."
 .SH DESCRIPTION
-.B dmenu
+.B doommenu
 is a dynamic menu for X, which reads a list of newline\-separated items from
 stdin.  When the user selects an item and presses Return, their choice is printed
-to stdout and dmenu terminates.  Entering text will narrow the items to those
+to stdout and doommenu terminates.  Entering text will narrow the items to those
 matching the tokens in the input.
 .P
-.B dmenu_run
+.B doommenu_run
 is a script used by
 .IR dwm (1)
 which lists programs in the user's $PATH and runs the result in their $SHELL.
 .SH OPTIONS
 .TP
 .B \-b
-dmenu appears at the bottom of the screen.
+doommenu appears at the bottom of the screen.
 .TP
 .B \-f
-dmenu grabs the keyboard before reading stdin if not reading from a tty. This
+doommenu grabs the keyboard before reading stdin if not reading from a tty. This
 is faster, but will lock up X until stdin reaches end\-of\-file.
 .TP
 .B \-i
-dmenu matches menu items case insensitively.
+doommenu matches menu items case insensitively.
 .TP
 .BI \-l " lines"
-dmenu lists items vertically, with the given number of lines.
+doommenu lists items vertically, with the given number of lines.
 .TP
 .BI \-h " height"
-dmenu uses a menu line of at least 'height' pixels tall, but no less than 8.
+doommenu uses a menu line of at least 'height' pixels tall, but no less than 8.
 .TP
 .BI \-m " monitor"
-dmenu is displayed on the monitor number supplied. Monitor numbers are starting
+doommenu is displayed on the monitor number supplied. Monitor numbers are starting
 from 0.
 .TP
 .BI \-p " prompt"
@@ -86,7 +86,7 @@ prints version information to stdout, then exits.
 .BI \-w " windowid"
 embed into windowid.
 .SH USAGE
-dmenu is completely controlled by the keyboard.  Items are selected using the
+doommenu is completely controlled by the keyboard.  Items are selected using the
 arrow keys, page up, page down, home, and end.
 .TP
 .B Tab
